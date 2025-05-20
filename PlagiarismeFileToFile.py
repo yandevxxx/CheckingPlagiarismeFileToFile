@@ -65,5 +65,5 @@ def generate_report(overall_similarity):
 file1 = 'NamaFile.pwn'
 file2 = 'NamaFile.pwn'
 
-hasil = CheckPlagiat(file1, file2)
-print(hasil)
+allCheck = CheckPlagiat(file1, file2)
+print(allCheck)
