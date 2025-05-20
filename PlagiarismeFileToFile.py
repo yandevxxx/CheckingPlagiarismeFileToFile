@@ -1,6 +1,6 @@
 import re
 
-def cek_perbedaan_kode(file1, file2):
+def CheckPlagiat(file1, file2):
     try:
         kode1 = read_file(file1)
         kode2 = read_file(file2)
@@ -65,5 +65,5 @@ def generate_report(overall_similarity):
 file1 = 'NamaFile.pwn'
 file2 = 'NamaFile.pwn'
 
-hasil = cek_perbedaan_kode(file1, file2)
+hasil = CheckPlagiat(file1, file2)
 print(hasil)
